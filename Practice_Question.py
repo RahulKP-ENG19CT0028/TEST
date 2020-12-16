@@ -35,6 +35,7 @@ and data2 is a dictionary.
 def uniqueUpdate(data1, data2):
     # Initially empty dictionary
     dupKeys = {}
+    print("hey")
 
     # Examine every (k, v2) pair in data2
     for k, v2 in data2.items():
@@ -62,6 +63,7 @@ def uniqueUpdate(data1, data2):
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
+
 
 '''
 Visualize this function on an example:
